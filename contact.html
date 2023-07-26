@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Shop</title>
+    <link rel="website icon" type="png" href="images/logonew.png">
+    <link rel="stylesheet" href="register.css">
+    <script src="https://kit.fontawesome.com/d651a0d55a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--------------------Navbar---------------------->
+        <nav id="navbar">
+            <img src="images/logoE.png" class="logo">
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+            <div class="search">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search for Products">
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <!--------------------Contact page------------------------->
+        <div class="contact-page">
+            <div class="img"><img src="images/logonew.png"></div>
+            
+            <div class="page">
+                <h1>Contact Us</h1>
+                <p>Question not answered yet? We are here to help!</p>
+                
+
+                <div class="help">
+                    <i class="fa-brands fa-hire-a-helper"></i>
+                    <div class="hep">
+                        <h3>HELP CENTER</h3>
+                        <p>Got Questions? We've got answers</p>
+                    </div>
+                    <h4> HELP CENTER</h4>
+                </div>
+
+                <div class="help">
+                    <i class="fa-solid fa-message"></i>
+                    <div class="hep">
+                        <h3>CHAT</h3>
+                        <p>Typical reply time;within seconds <br> Monday - Friday 10am-4pm IST</p>
+                    </div>
+                    <h4>CHAT WITH US</h4>
+                </div>
+
+                <div class="help">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="hep">
+                        <h3>EMAIL</h3>
+                        <p>Typical reply time;within seconds  <br> Monday - Friday 6am-6pm IST</p>
+                    </div>
+                    <h4>EMAIL WITH US</h4>
+                </div>
+
+            </div>
+        </div>
+
+
+
+        <!--------------------Footer------------------------->
+        <div class="footer">
+            <div class="contact">
+                <img src="images/logonew.png">
+                <h2>Contact</h2>
+                <p><strong>Address:</strong> Government of Tamilnadu</p>
+                <p><strong>Phone:</strong> +91  144-98765543</p>
+                <p><strong>Hours:</strong> 24x7</p>
+                <h3>Follow Us</h3>
+                <div class="follow">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://google.com/"><i class="fa-brands fa-google"></i></a> 
+                    <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About Us</h3>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="account">
+                <h3>My Account</h3>
+                <a href="#">Sign in</a>
+                <a href="#">View cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track my order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="app">
+                <h3>Install App</h3>
+                <p>From Google Playstore or App Stroe</p>
+                <img src="images/gp.png">
+                <img src="images/as.png">
+            </div>
+            <hr>
+            <div class="copy">
+                <p>Copyright @ 2023</p>
+            </div>
+            
+        </div>
+
+
+        <script>
+            var navbar = document.getElementById("navbar");
+    
+            function togglebtn(){
+                navbar.classList.toggle("hidemenu")
+            }
+        </script>
+</body>
+</html>

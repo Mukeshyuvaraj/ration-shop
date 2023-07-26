@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Shop</title>
+    <link rel="website icon" type="png" href="images/logonew.png">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/d651a0d55a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <!--------------------Navbar------------------------->
+        <nav id="navbar">
+            <img src="images/logoE.png" class="logo">
+            
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html" >Product</a></li>
+                <li><a href="cart.html" class="active">Cart</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="search">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search for Products">
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        
+      
+        
+
+        <!--------------------Payment Page------------------------->
+        <div class="containers">
+            <form action="">
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <h3 class="title">billing address</h3>
+
+                        <div class="inputBox">
+                            <span>Full name :</span>
+                            <input type="text" placeholder="Your name">
+                        </div>
+                        <div class="inputBox">
+                            <span>Smart Card No :</span>
+                            <input type="string" placeholder="Your smart card number">
+                        </div>
+                        <div class="inputBox">
+                            <span>address :</span>
+                            <input type="text" placeholder="room - street - locality">
+                        </div>
+                        <div class="inputBox">
+                            <span>city :</span>
+                            <input type="text" placeholder="Your city">
+                        </div>
+
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>state :</span>
+                                <input type="text" placeholder="india">
+                            </div>
+                            <div class="inputBox">
+                                <span>zip code :</span>
+                                <input type="text" placeholder="123 456">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col">
+
+                        <h3 class="title">payment</h3>
+
+                        <div class="inputBox">
+                            <span>cards accepted :</span>
+                            <img src="images/card_img.png">
+                        </div>
+                        <div class="inputBox">
+                            <span>name on card :</span>
+                            <input type="text" placeholder="mr. xxxxx">
+                        </div>
+                        <div class="inputBox">
+                            <span>credit card number :</span>
+                            <input type="text" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <span>exp month :</span>
+                            <input type="text" placeholder="january">
+                        </div>
+
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>exp year :</span>
+                                <input type="number" placeholder="2026">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="password" placeholder="123">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <input type="submit" value="proceed to checkout" class="submit-btn">
+            </form>
+        </div> 
+        <!--------------------Footer------------------------->
+        <div class="footer">
+            <div class="contact">
+                <img src="images/logonew.png">
+                <h2>Contact</h2>
+                <p><strong>Address:</strong> Government of Tamilnadu</p>
+                <p><strong>Phone:</strong> +91  144-98765543</p>
+                <p><strong>Hours:</strong> 24x7</p>
+                <h3>Follow Us</h3>
+                <div class="follow">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://google.com/"><i class="fa-brands fa-google"></i></a> 
+                    <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="about">
+                <h3>About Us</h3>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contact us</a>
+            </div>
+            <div class="account">
+                <h3>My Account</h3>
+                <a href="#">Sign in</a>
+                <a href="#">View cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track my order</a>
+                <a href="#">Help</a>
+            </div>
+
+            <div class="app">
+                <h3>Install App</h3>
+                <p>From Google Playstore or App Stroe</p>
+                <img src="images/gp.png">
+                <img src="images/as.png">
+            </div>
+            <hr>
+            <div class="copy">
+                <p>Copyright @ 2023</p>
+            </div>
+            
+        </div>
+
+        <script>
+            var navbar = document.getElementById("navbar");
+    
+            function togglebtn(){
+                navbar.classList.toggle("hidemenu")
+            }
+        </script>
+</body>
+</html>
